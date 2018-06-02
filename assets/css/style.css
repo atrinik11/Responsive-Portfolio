@@ -1,0 +1,555 @@
+/**
+    Layout for the basic portfolio
+**/
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    border-top:2px;
+    border-right:2px;
+    border-style:solid;
+    border-top-color:black;
+    border-right-color:grey;
+    margin:auto;
+    margin-top:30px;
+    width:980px;
+    font-family: Open Sans, sans-serif;
+}
+header{
+    margin:auto;
+    width:980px;
+    background-color:white;
+    height:80px;
+    }
+.container
+{
+    margin:auto;
+    width:980px;
+    padding:0;
+    margin-bottom:0;
+    height:80px;
+}
+#name
+{
+    display:block;
+    float:left;
+    background-color:#4aaaa5;
+    color:white;
+    font-size:28px;
+    text-align:center;
+    width:30%;
+    height:80px;
+    padding:20px;
+    margin-left:20px;
+    bottom:0;
+    left:0;
+}
+
+nav
+{
+    float:right;
+}
+nav ul{
+    margin:5px 5px 0 0;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height:20%;
+    border-right:1px;
+    border-right-style:solid;
+    border-right-color:lightgrey;
+    padding:25px;
+    list-style:none;
+}
+nav ul li:last-child{
+    border-right-style:none;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:rgba(88, 85, 85, 0.867);
+    font-size:15px;
+
+}
+a:hover
+{
+    background-color:teal;
+    color:white;
+    padding:10px;
+}
+
+/*FOOTER CODES............................................*/
+.footer
+{
+
+    border-top:5px;
+    border-style:solid;
+    border-top-color: #4aaaa5;
+    width:980px;
+    margin:auto;
+    background-color:#666666;
+    text-align:center;
+    color:lightgrey;
+    padding:25px 0;
+    bottom:0;
+    height:50px;
+
+
+}
+.full    /*.....background style */
+{
+    clear:both;
+    overflow:hidden;
+    margin:auto;
+    width:980px;
+    padding:0;
+    background-image: url(../images/canvas-texture-paper.jpg);
+    background-size:contain;
+    border-top:2px;
+    border-style:solid;
+    border-color:lightslategrey;
+}
+.content
+{
+    background-color:#ffffff;
+    font-style:bold;
+    font-size:25px;
+    height:auto;
+    padding-right:40px;
+    padding-left:40px;
+    margin:20px;
+    border-color:#636161;
+    border-style:solid;
+    border:5px;
+    /*box-sizing: content-box;*/
+    overflow:hidden;
+}
+h1{ color:teal;
+    font-style:bold;
+    padding-top:10px;}
+.fixed
+{
+    /*height:200px;
+    width: 200px;
+    position:absolute;*/
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+img   /*Setting the background image/setting for the area behinf the contain area*/
+{
+   /* position:absolute;*/
+    top:15%;
+    left:2%;
+    background-image: url(../images/flower7.png);
+    background-size:contain;
+    border-color:rgb(107, 105, 105);
+
+}
+rotate170
+{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.paragraph
+{
+    min-height:100%;
+    /*margin-bottom: -75px;*/
+    font-size:18px;
+    color:gray;
+    text-align: justify;
+    line-height:30px;
+   }
+
+/*PORTFOLIO CODES STARTS FROM HERE..........................................*/
+.box-set
+{
+    height:650px;
+}
+a{
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    font-size:18px;
+}
+.word-Guess
+{
+    position:relative;
+    float:left;
+    width:248px;
+    height:187px;
+    padding:20px;
+    margin:20px;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    background-image: url(../images/flower1.png);
+
+
+}
+#name1
+{
+    Position:absolute;
+    background-color:#4aaaa5;
+    text-align:center;
+    width:100%;
+    height:54px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+.Rpg-game
+{
+    position:relative;
+    float:left;
+    width:248px;
+    height:187px;
+    padding:20px;
+    margin:20px;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    background-image: url(../images/flower3.png);
+    background-size:contain;
+}
+#name2
+{
+    position:absolute;
+    background-color:#4aaaa5;
+    text-align:center;
+    width:100%;
+    height:54px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+.Trivia-game
+{
+    position:relative;
+    float:left;
+    clear:both;
+    width:248px;
+    height:187px;
+    padding:20px;
+    margin:20px;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    background-image: url(../images/flower6.png);
+    background-size:contain;
+}
+#name3
+{
+    position:absolute;
+    background-color:#4aaaa5;
+    text-align:center;
+    width:100%;
+    height:54px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+.Info-Widget
+{
+    position:relative;
+    float:left;
+    width:248px;
+    height:187px;
+    padding:20px;
+    margin:20px;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    background-image: url(../images/flower7.png);
+    background-size:contain;
+}
+#name4
+{
+    position:absolute;
+    background-color:#4aaaa5;
+    text-align:center;
+    width:100%;
+    height:54px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+.Rock
+{
+    position:relative;
+    float:left;
+    clear:both;
+    width:248px;
+    height:187px;
+    padding:20px;
+    margin:20px;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    background-image: url(../images/flower5.png);
+    background-size:contain;
+}
+#name5
+{
+    position:absolute;
+    background-color:#4aaaa5;
+    text-align:center;
+    width:100%;
+    height:54px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+
+/*CONTACT CODES STARTS FROM HERE...........................*/
+label
+{
+    display:block;
+    background-color:transparent;
+    padding-top:5px;
+    padding-bottom:5x;
+    }
+input[type=submit]
+{
+    width:15%;
+    height:20px;
+    padding: 20px 20px;
+    margin-bottom:10px;
+    display:block;
+    background-color:teal;
+    color:white;
+    text-align:center;
+    cursor:pointer;
+}
+input[type=text]
+{
+    width:100%;
+    height:30px;
+    padding:10px;
+    display:inline-block;
+}
+textarea
+{
+    width:100%;
+    height:155px;
+    padding-top:10px;
+    display:inline-block;
+}
+
+/*media querie codes starts from here......*/
+@media only screen and (max-width:982px){
+    .main{
+      width:100%;
+      margin:auto;
+    }
+  }
+  @media only screen and  (max-width:768px){
+      .main{
+        width:100%;
+        margin:auto;
+      }
+      header{
+          width:100%;
+          height:76px;
+          }
+      .container{
+          width:100%;
+          height:76px; }
+      nav{
+          display:inline-block;
+          width:auto;
+          /*flex-direction: row;*/
+        }
+        nav ul{
+          margin:3px 0 0 0;
+          width:auto;
+        }
+        #name{
+          width:auto;
+          font-size:30px;
+          height:76px;
+        }
+        nav ul li{
+          line-height:10%;
+          font-size:10px;
+        }
+        .footer{
+          width:100%;
+          height:60px;
+          font-size:10px;
+        }
+        .full{
+          width:100%;
+          padding:0 25px;
+        }
+        h1{
+          width:auto;
+          font-size:25px;
+          padding:10px 0;
+        }
+        .content{
+          width:100%;
+          margin:30px 30px 30px 10px;
+          font-size:20px;
+        }
+        .fixed{
+          height:150px; width:150px;
+        }
+        img{
+          height:100%; width:100%;
+          top:10%;
+        }
+        .paragraph{
+          margin-right:15px;
+          font-size:20px;
+          line-height:25px;
+          letter-spacing:1px;
+            }
+        .box-set{
+          display:flex;
+          flex-direction:row;
+          flex-wrap:wrap;
+          height:895px;
+          }
+        .word-Guess, .Rpg-game, .Trivia-game, .Info-Widget, .Rock{
+          padding:0;
+          margin:10px;
+          width:35%;
+          height:226px;
+          background-repeat: no-repeat;
+        }
+        #name1, #name2, #name3, #name4, #name5{
+          height:61px;
+          padding:5px;
+        }
+     .box-set a {
+        margin-top:20px;
+      }
+      input[type=text]
+      {
+        height:35px;
+      }
+  }
+  @media only screen and (max-width:640px){
+      .main{
+          width:100%;
+          margin:auto;
+          height:100%;
+          }
+      header{
+          margin:0;
+          width:100%;
+          padding:0;
+          margin-bottom:0;
+          height:158px;
+      }
+      .container{
+          margin:auto;
+          width:100%;
+          padding:0;
+          /*margin-bottom:0;*/
+          height:158px;
+        }
+      #name{ font-size: 30px;
+          clear:both;
+          width:100%;
+          height:91px;
+          text-align:center;
+          margin:0;
+          padding-top:30px;
+       }
+      nav{
+          color:lightgrey;
+          width:100%;
+          height:67px;
+          }
+      nav ul {
+          text-align:center;
+          height:100%;
+          font-size:40px;
+            }
+      nav ul li{
+        line-height:15%;
+        padding:10px;
+        align-self:center;
+      }
+      .footer{
+        width:100%;
+        height:102px;
+        font-size:15px;
+        border-top:7px;
+        padding-top:40px;
+      }
+      .full{
+        width:auto;
+        padding:0;
+      }
+      .content{
+        width:auto;
+        margin:20px;
+        padding: 0 25px 30px 30px ;
+      }
+      h1{ padding:30px 0 20px 0;
+          font-size:27px;
+          font-style:bold;
+         }
+      .fixed{
+          height:357px; width:auto;
+          /*padding:0 57px;*/
+          margin:0;
+          align-self: center;
+      }
+      img{
+        top:10%;
+        background-size:contain;
+        overflow:hidden;
+      }
+      .paragraph{
+        width:auto;
+        margin:0;
+        padding-top:20px;
+        clear:both;
+        font-size:20px;
+        line-height:25px;
+        letter-spacing:1px;
+      }
+      .box-set{
+        display:flex;
+        flex-direction:column;
+        height:1250px;
+      }
+      .word-Guess, .Rpg-game, .Trivia-game, .Info-Widget, .Rock{
+        padding:0;
+        margin:10px;
+        width:100%;
+        height:292px;
+        background-repeat: no-repeat;
+        align-self:center;
+      }
+      #name1, #name2, #name3, #name4, #name5{
+        height:61px;
+        padding:5px;
+      }
+   .box-set a {
+      margin-top:20px;
+      /*padding-top:0;*/
+   }
+   input[type=text]
+   {
+     height:50px;
+     padding-top:0;
+   }
+   textarea{
+     height:190px;
+   }
+   input[type=submit]{
+     width:auto;
+   }
+  }
+  
